@@ -8,6 +8,7 @@ function sizeFromSeconds(totalSeconds: number): number {
 
 type Props = {
   fish: FishData;
+  onPress?: () => void;
 };
 
 export function Fish({ fish }: Props) {
